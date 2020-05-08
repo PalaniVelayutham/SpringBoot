@@ -3,15 +3,19 @@
 Dependencies:
 
 spring-boot-starter-web
+
 spring-boot-starter
+
 spring-boot-starter-security
+
 spring-boot-maven-plugin
 
 
 
 Run:
+   
    Dev & UAT  :  mvn spring-boot:run
- 
+
    Production :  mvn spring-boot:run -P prod
 
 
